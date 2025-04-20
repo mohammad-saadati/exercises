@@ -8,6 +8,5 @@ describe("Exercise 2 - FizzBuzz", () => {
     expect(consoleSpy).toHaveBeenNthCalledWith(4, " Fizz ");
     expect(consoleSpy).toHaveBeenNthCalledWith(6, " Buzz ");
     expect(consoleSpy).toHaveBeenNthCalledWith(16, " FizzBuzz ");
-    consoleSpy.mockRestore();
   });
 });
